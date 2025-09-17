@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>PORTFOLIO WEBSITE</title>
+</head>
+<body>
+    <!--header and navbar section-->
+    <header>
+        <h1>My Portfolio Website</h1>
+    </header>
+    <div class="container-fluid">
+<nav class="navbar bg-body-tertiary">
+    <button class="btn btn-primary" type="button"><a href="index.html">HOME</a></button>
+    <button class="btn btn-secondary" type="button"><a href="#about">ABOUT</a></button>
+    <button class="btn btn-primary" type="button"><a href="#skills">SKILLS</a></button>   
+    <button class="btn btn-primary" type="button"><a href="#projects">PROJECTS</a></button>
+    <button class="btn btn-primary" type="button"><a href="#resume">RESUME</a></button>
+   <button class="btn btn-secondary" type="button"><a href="#contact">CONTACT</a></button>
+   <button class="btn btn-primary" type="button"><a href="#blog">BLOG</a></button>  
+    <button class="btn btn-outline" type="button" id="darkModeToggle">🌙</a></button>
+</nav>
+    </div>
+
+    <!--Home section-->
+    <div class="container-fluid">
+    <section class="home-section">
+        <h1>Hello, I'm <span>Tarak</span></h1>
+        <p>Aspiring Full Stack Developer | Problem Solver | Tech Enthusiast</p>
+         <a href="#projects" class="btn">View My Work</a>
+    </section>
+    </div>
+
+
+<!-- About Section -->
+ <div class="container-fluid">
+      <section id="about" class="about-section">
+    <h2>About Me</h2>
+    <p>
+      I'm a passionate developer who loves creating web applications and solving real-world problems.
+      With skills in Java,  I aim to build scalable and user-friendly products.
+    </p>
+  </section>
+  </div>
+
+  <!--Skills section-->
+  <div class="container-fluid">
+   <section class="skills-section" id="skills">
+   <h1>Skills</h1>
+    <ul>
+  <li>C <span class="skill"></span></li>
+  <li>C++ <span class="skill"></span></li>
+  <li>Java <span class="skill"></span></li>
+  <li>Python <span class="skill"></span></li>
+  <li>HTML <span class="skill"></span></li>
+  <li>CSS <span class="skill"></span></li>
+  <li>JavaScript <span class="skill"></span></li>
+  <li>MySQL <span class="skill"></span></li>
+  <li>DSA <span class="skill"></span></li>
+</ul>
+   </section>
+  </div>
+
+
+  <!--Project section-->
+ <div class="container-fluid">
+  <section class="project-section" id="projects">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="project">
+        <h5>To-Do List App</h5>
+        <p>A simple productivity app to manage daily tasks.</p>
+        <a href="#">🔗 GitHub</a> | <a href="#">🌐 Live Demo</a>
+      </div>
+      <div class="project">
+        <h5>Portfolio Website</h5>
+        <p>Showcasing my skills, projects, and contact details.</p>
+        <a href="#">🔗 GitHub</a> | <a href="#">🌐 Live Demo</a>
+      </div>
+    </div>
+  </section>
+ </div>
+
+
+ <!--Resume Section-->
+ <div class="container-fluid">
+  <section id="resume" class="resume-section">
+    <h2>Resume</h2>
+    <p>Download my resume to know more about my skills, education, and experience.</p>
+    <a href="resume.pdf" class="btn" download>📄 Download Resume</a>
+  </section>
+  </div>
+
+  <!--Contact Section-->
+  <div class="container-fluid">
+  <section id="contact" class="py-5">
+    <h2 class="mb-3">Contact Us</h2>
+    <p>
+      Have any feedback or suggestions about this my portfolio? 
+      Fill out the form below and I'll get back to you soon.
+    </p>
+
+    <form id="contactForm" class="w-75">
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label"><b>Email</b></label>
+        <input 
+          type="email" 
+          class="form-control" 
+          id="emailLabel" 
+          placeholder="name@example.com" 
+          required>
+      </div>
+
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label"><b>Message</b></label>
+        <textarea 
+          class="form-control" 
+          id="messageLabel" 
+          rows="3" 
+          placeholder="Write your message here..."
+          ></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-primary">Send Message</button>
+    </form>
+  </section>
+</div>
+
+
+<!--Blog section-->
+<div class="container-fluid">
+<section id="blog" class="blog-section">
+  <h2>Blog</h2>
+  <div class="blog-grid">
+    <div class="blog-card">
+      <h3>How I Built My First Portfolio</h3>
+      <p>A step-by-step guide on creating a personal portfolio website.</p>
+      <a href="post3.html">Read More →</a>
+    </div>
+  </div>
+</section>
+</div>
+
+
+<!--footer section-->
+  <footer>
+    <p>&copy; 2025 My Personal Blog <b>By Tarak</b>. All rights reserved.</p>
+    <button id="scrollTopBtn">⬆ Top</button>
+  </footer>
+<script src="script.js"></script>
+
+</body>
+</html>

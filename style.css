@@ -1,0 +1,154 @@
+nav button a{
+    text-decoration: none;
+    color: white;
+}
+header{
+    text-align: center;
+    background-color: bisque;
+    padding: 10px;
+}
+.home-section{
+    background-color: burlywood;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+.about-section{
+    margin: 10px;
+    background-color: burlywood;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+.skills-section{
+   margin: 10px;
+    background-color: darkkhaki;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+.skill {
+  display: inline-block;
+  width: 100px;
+  height: 8px;
+  background: lightgray;
+  margin-left: 10px;
+  position: relative;
+}
+.skill::after {
+  content: '';
+  display: block;
+  height: 100%;
+  width: 70%;
+  background: green;
+}
+.project-section{
+    background-color: pink;
+    border-radius: 10px;
+    padding : 10px;
+    text-align: center;
+}
+.project{
+    text-align: center;
+    padding: 10px;
+    background-color : white;
+    border-radius: 10px;
+    margin: 10px;
+}
+.project a{
+    text-decoration: none;
+}
+.resume-section{
+    background-color: lightblue;
+    border-radius: 10px;
+    padding : 10px;
+    text-align: center;
+    margin: 10px;
+}
+.py-5{
+   background-color: lightgray;
+    border-radius: 10px;
+    padding : 10px;
+    text-align: center;
+    margin: 10px;
+}
+.w-75{
+    margin-left: 12%;
+}
+.blog-section{
+    background-color: burlywood;
+    border-radius: 10px;
+    padding : 10px;
+    text-align: center;
+    margin: 10px;
+    height: fit-content;
+}
+footer{
+    background-color: hsl(0, 0%, 80%);
+    margin-top: 10px;
+    text-align: center;   
+}
+#scrollTopBtn {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    
+}
+#scrollTopBtn:hover {
+    background-color: #555;
+}
+
+
+/* 🌞 Light Theme (default) */
+body {
+  background: #ffffff;
+  color: #222;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* Headings for better contrast */
+h1, h2, h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #f8f8f8;
+  padding: 12px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background 0.3s ease;
+}
+.navbar a {
+  color: #222;
+  text-decoration: none;
+  font-weight: 600;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+.navbar a:hover {
+  color: #007bff;
+}
+
+/* 🌙 Dark Theme */
+body.dark-mode {
+  background: #2c2c2c;  /* better than plain brown */
+  color: #f1f1f1;
+}
+
+/* Navbar in Dark Mode */
+body.dark-mode .navbar {
+  background-color: #1f1f1f;
+}
+body.dark-mode .navbar a {
+  color: #f1f1f1;
+}
+body.dark-mode .navbar a:hover {
+  color: #ffb347; /* warm highlight in dark */
+}
